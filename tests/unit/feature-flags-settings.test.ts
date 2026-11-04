@@ -64,7 +64,8 @@ const {
 // audit rows, default off) takes it to 115.
 // CLAUDE_CACHE_TAIL_TTL_1H (1h TTL for the Claude cache conversation tail, default off)
 // takes it to 116.
-const EXPECTED_FEATURE_FLAG_COUNT = 116;
+// CODEX_SEARCH_AUTO_FALLBACK_ENABLED (#17933, default off) takes it to 117.
+const EXPECTED_FEATURE_FLAG_COUNT = 117;
 // tool_call wrapper repair, default on) to 86; OPENCODE_V2_CLIENT_FINGERPRINT_ENABLED
 // (#16571, OpenCode v2 client fingerprint, default off) to 87.
 // tool_call wrapper repair, default on) to 86; CLAUDE_OAUTH_SUMMARIZED_THINKING_UNREDACTED
@@ -85,6 +86,7 @@ const EXPECTED_FEATURE_FLAG_COUNT = 116;
 // NATIVE_CODEX_REACTIVE_COMPACTION_ENABLED (#16632, default off) to 88.
 // COOLDOWN_RETRY_SKIP_REFUSALS_ENABLED (#16305, default off) takes it to 88.
 // CURSOR_GROK_47_DROP_MAX_EFFORT (#17386, default off) takes it to 112.
+// CODEX_SEARCH_AUTO_FALLBACK_ENABLED (#17933, default off) takes it to 113.
 // default off) to 87; QUOTA_WINDOW_BOUNDED_PARK
 // (#17000, per-window quota policy honours the bounded park, default off) to 88.
 // default off) to 87; IMAGE_GENERATION_LONG_JOBS
